@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ds_store
+raw_stems/
+processed_stems/
+*.zip
+.streamlit/
