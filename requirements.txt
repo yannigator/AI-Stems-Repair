@@ -1,21 +1,4 @@
-# Create repository structure
-mkdir vocal-repair-tool && cd vocal-repair-tool
-touch requirements.txt README.md .gitignore LICENSE
-
-# Add requirements
-cat > requirements.txt << 'EOF'
 numpy>=1.24.0,<2.0.0
 scipy>=1.10.0,<2.0.0
 librosa>=0.10.0,<0.11.0
 soundfile>=0.12.0,<1.0.0
-EOF
-
-# Create directories
-mkdir -p src tests
-
-# Initialize git
-git init
-git add requirements.txt README.md .gitignore LICENSE
-git commit -m "Initial commit"
-
-echo "✅ Repository setup complete!"
